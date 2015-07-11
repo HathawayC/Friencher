@@ -39,22 +39,16 @@
     <div id="content">
       <div id="road">首页 / 我的课程</div>
       <div class="cource">
-        <img src="../static/imgs/UML.jpg" />
         <div class="cource-name">系统分析与设计</div>
-        <div class="cource-teacher">衣扬</div>
-        <div class="cource-time">2015-3.1 - 2015.7.6</div>
+        <div class="cource-teacher"><span>授课老师：</span>衣扬</div>
+        <div ><span>课程类型：</span>必修</div>
+        <div class="cource-time"><span>时间： </span>2015-3.1 - 2015.7.6</div>
       </div>
       <div class="cource">
-        <img src="../static/imgs/softwaretest.jpg" />
-        <div class="cource-name">软件测试</div>
-        <div class="cource-teacher">王欣明</div>
-        <div class="cource-time">2015-3.1 - 2015.7.6</div>
-      </div>
-      <div class="cource">
-        <img src="../static/imgs/softwaretest.jpg" />
-        <div class="cource-name">软件测试</div>
-        <div class="cource-teacher">王欣明</div>
-        <div class="cource-time">2015-3.1 - 2015.7.6</div>
+        <div class="cource-name">{cource.name}</div>
+        <div class="cource-teacher"><span>授课老师：</span>{cource.teacher}</div>
+        <div><span>课程类型：</span>{course.type}</div>
+        <div class="cource-time"><span>时间： </span>{cource.start} - {cource.end}</div>
       </div>
     </div>
   </div>
